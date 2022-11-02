@@ -1,0 +1,329 @@
+﻿D:\VisualStudio\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(lwIP pcapif.vcxproj, makefsdata.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  ip6_route_table.c
+  tcp_isn.c
+  chargen.c
+F:\LwipWin32\contrib\apps\chargen\chargen.c(164,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\chargen\chargen.c(164,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\chargen\chargen.c(167,5): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\chargen\chargen.c(167,5): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\chargen\chargen.c(172,5): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\chargen\chargen.c(172,5): message : 请考虑在格式字符串中使用“%ld”
+  httpserver-netconn.c
+F:\LwipWin32\contrib\apps\httpserver\httpserver-netconn.c(77,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\httpserver\httpserver-netconn.c(77,3): message : 请考虑在格式字符串中使用“%ld”
+  netio.c
+  ping.c
+F:\LwipWin32\contrib\apps\ping\ping.c(136,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\ping\ping.c(136,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\ping\ping.c(268,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\ping\ping.c(268,3): message : 请考虑在格式字符串中使用“%ld”
+  rtp.c
+  shell.c
+F:\LwipWin32\contrib\apps\shell\shell.c(465,5): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\shell\shell.c(465,5): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\shell\shell.c(1255,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\shell\shell.c(1255,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\shell\shell.c(1258,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\shell\shell.c(1258,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\shell\shell.c(1260,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\shell\shell.c(1260,3): message : 请考虑在格式字符串中使用“%ld”
+  socket_examples.c
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(108,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(108,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(113,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(113,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(117,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(117,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(121,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(121,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(131,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(131,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(134,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(134,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(137,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(137,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(141,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(141,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(143,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(143,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(146,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(146,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(149,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(149,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(151,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(151,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(163,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(163,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(168,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(168,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(173,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(173,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(175,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(175,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(179,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(179,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(181,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(181,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(183,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(183,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(185,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(185,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(187,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(187,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(189,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(189,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(191,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(191,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(193,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(193,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(195,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(195,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(200,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(200,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(201,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(201,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(202,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(202,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(203,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(203,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(204,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(204,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(210,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(210,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(211,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(211,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(223,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(223,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(224,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(224,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(225,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(225,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(226,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(226,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(232,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(232,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(233,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(233,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(237,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(237,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(241,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(241,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(255,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(255,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(260,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(260,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(271,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(271,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(273,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(273,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(277,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(277,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(279,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(279,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(292,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(292,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(304,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(304,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(305,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(305,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(311,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(311,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(371,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(371,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(376,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(376,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(386,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(386,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(395,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(395,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(396,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(396,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(400,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(400,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(401,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(401,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(408,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(408,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(412,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(412,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(414,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(414,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(421,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(421,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(428,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(428,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(439,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(439,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(440,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(440,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(441,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(441,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(450,5): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(450,5): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(455,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(455,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(486,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(486,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(506,5): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(506,5): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(508,5): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(508,5): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(512,5): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(512,5): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(514,5): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(514,5): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(517,5): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(517,5): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(519,5): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(519,5): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(522,5): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(522,5): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(524,5): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(524,5): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(569,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(569,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(570,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(570,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(574,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(574,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(576,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(576,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(582,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(582,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(584,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(584,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(594,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(594,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(600,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(600,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(606,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(606,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(612,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(612,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(634,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(634,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(636,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(636,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(670,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(670,3): message : 请考虑在格式字符串中使用“%ld”
+  tcpecho.c
+F:\LwipWin32\contrib\apps\tcpecho\tcpecho.c(57,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\tcpecho\tcpecho.c(57,3): message : 请考虑在格式字符串中使用“%ld”
+  tcpecho_raw.c
+F:\LwipWin32\contrib\apps\tcpecho_raw\tcpecho_raw.c(200,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\tcpecho_raw\tcpecho_raw.c(200,3): message : 请考虑在格式字符串中使用“%ld”
+  udpecho.c
+F:\LwipWin32\contrib\apps\udpecho\udpecho.c(59,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\apps\udpecho\udpecho.c(59,3): message : 请考虑在格式字符串中使用“%ld”
+  udpecho_raw.c
+  test.c
+F:\LwipWin32\contrib\examples\example_app\test.c(349,15): warning C4189: “username”: 局部变量已初始化但不引用
+F:\LwipWin32\contrib\examples\example_app\test.c(349,33): warning C4189: “password”: 局部变量已初始化但不引用
+F:\LwipWin32\contrib\examples\example_app\test.c(345,9): warning C4101: “err”: 未引用的局部变量
+F:\LwipWin32\contrib\examples\example_app\test.c(549,5): warning C4668: 没有将“LWIP_CHARGEN_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(558,5): warning C4668: 没有将“LWIP_NETBIOS_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(569,5): warning C4668: 没有将“LWIP_HTTPD_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(586,5): warning C4668: 没有将“LWIP_NETIO_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(590,5): warning C4668: 没有将“LWIP_RTP_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(594,5): warning C4668: 没有将“LWIP_SHELL_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(597,5): warning C4668: 没有将“LWIP_TCPECHO_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(604,5): warning C4668: 没有将“LWIP_UDPECHO_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(607,5): warning C4668: 没有将“LWIP_SOCKET_EXAMPLES_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(610,5): warning C4668: 没有将“LWIP_MDNS_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(613,5): warning C4668: 没有将“LWIP_SNMP_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(616,5): warning C4668: 没有将“LWIP_SNTP_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(619,5): warning C4668: 没有将“LWIP_TFTP_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(622,5): warning C4668: 没有将“LWIP_LWIPERF_APP”定义为预处理器宏，用“0”替换“#if/#elif”
+F:\LwipWin32\contrib\examples\example_app\test.c(644,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\examples\example_app\test.c(644,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\examples\example_app\test.c(687,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\examples\example_app\test.c(687,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\examples\example_app\test.c(678,16): warning C4189: “callClosePpp”: 局部变量已初始化但不引用
+F:\LwipWin32\contrib\examples\example_app\test.c(676,8): warning C4101: “rxbuf”: 未引用的局部变量
+F:\LwipWin32\contrib\examples\example_app\test.c(675,7): warning C4101: “count”: 未引用的局部变量
+  cgi_example.c
+  fs_example.c
+  genfiles_example.c
+  post_example.c
+  ssi_example.c
+  lwiperf_example.c
+F:\LwipWin32\contrib\examples\lwiperf\lwiperf_example.c(43,10): warning C4777: “printf”: 格式字符串“%lu”需要类型“unsigned long”的参数，但可变参数 4 拥有了类型“u32_t”
+F:\LwipWin32\contrib\examples\lwiperf\lwiperf_example.c(43,10): message : 请考虑在格式字符串中使用“%u”
+F:\LwipWin32\contrib\examples\lwiperf\lwiperf_example.c(43,10): message : 请考虑在格式字符串中使用“%Iu”
+F:\LwipWin32\contrib\examples\lwiperf\lwiperf_example.c(43,10): message : 请考虑在格式字符串中使用“%I32u”
+F:\LwipWin32\contrib\examples\lwiperf\lwiperf_example.c(43,10): warning C4777: “printf”: 格式字符串“%lu”需要类型“unsigned long”的参数，但可变参数 5 拥有了类型“u32_t”
+F:\LwipWin32\contrib\examples\lwiperf\lwiperf_example.c(43,10): message : 请考虑在格式字符串中使用“%u”
+F:\LwipWin32\contrib\examples\lwiperf\lwiperf_example.c(43,10): message : 请考虑在格式字符串中使用“%Iu”
+F:\LwipWin32\contrib\examples\lwiperf\lwiperf_example.c(43,10): message : 请考虑在格式字符串中使用“%I32u”
+F:\LwipWin32\contrib\examples\lwiperf\lwiperf_example.c(43,10): warning C4777: “printf”: 格式字符串“%lu”需要类型“unsigned long”的参数，但可变参数 6 拥有了类型“u32_t”
+F:\LwipWin32\contrib\examples\lwiperf\lwiperf_example.c(43,10): message : 请考虑在格式字符串中使用“%u”
+F:\LwipWin32\contrib\examples\lwiperf\lwiperf_example.c(43,10): message : 请考虑在格式字符串中使用“%Iu”
+F:\LwipWin32\contrib\examples\lwiperf\lwiperf_example.c(43,10): message : 请考虑在格式字符串中使用“%I32u”
+  正在生成代码...
+F:\LwipWin32\contrib\examples\example_app\test.c(320): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\examples\example_app\test.c(314) : 注意: 在此行上通过对比检查索引 "len" 范围
+  F:\LwipWin32\contrib\examples\example_app\test.c(320) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(449): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(447) : 注意: 在此行上通过对比检查索引 "ret" 范围
+  F:\LwipWin32\contrib\apps\socket_examples\socket_examples.c(449) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\shell\shell.c(1236): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\shell\shell.c(1234) : 注意: 在此行上通过对比检查索引 "i" 范围
+  F:\LwipWin32\contrib\apps\shell\shell.c(1236) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\shell\shell.c(478): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\shell\shell.c(477) : 注意: 在此行上通过对比检查索引 "i" 范围
+  F:\LwipWin32\contrib\apps\shell\shell.c(478) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\shell\shell.c(464): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\shell\shell.c(462) : 注意: 在此行上通过对比检查索引 "i" 范围
+  F:\LwipWin32\contrib\apps\shell\shell.c(469) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\shell\shell.c(440): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\shell\shell.c(439) : 注意: 在此行上通过对比检查索引 "slen" 范围
+  F:\LwipWin32\contrib\apps\shell\shell.c(440) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\shell\shell.c(417): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\shell\shell.c(416) : 注意: 在此行上通过对比检查索引 "slen" 范围
+  F:\LwipWin32\contrib\apps\shell\shell.c(417) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\rtp\rtp.c(201): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\rtp\rtp.c(183) : 注意: 在此行上通过对比检查索引 "sock" 范围
+  F:\LwipWin32\contrib\apps\rtp\rtp.c(201) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\rtp\rtp.c(191): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\rtp\rtp.c(183) : 注意: 在此行上通过对比检查索引 "sock" 范围
+  F:\LwipWin32\contrib\apps\rtp\rtp.c(191) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\rtp\rtp.c(251): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\rtp\rtp.c(240) : 注意: 在此行上通过对比检查索引 "sock" 范围
+  F:\LwipWin32\contrib\apps\rtp\rtp.c(251) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\rtp\rtp.c(248): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\rtp\rtp.c(240) : 注意: 在此行上通过对比检查索引 "sock" 范围
+  F:\LwipWin32\contrib\apps\rtp\rtp.c(248) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\rtp\rtp.c(155): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\rtp\rtp.c(154) : 注意: 在此行上通过对比检查索引 "" 范围
+  F:\LwipWin32\contrib\apps\rtp\rtp.c(155) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\chargen\chargen.c(250): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\chargen\chargen.c(247) : 注意: 在此行上通过对比检查索引 "" 范围
+  F:\LwipWin32\contrib\apps\chargen\chargen.c(250) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\chargen\chargen.c(249): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\chargen\chargen.c(247) : 注意: 在此行上通过对比检查索引 "" 范围
+  F:\LwipWin32\contrib\apps\chargen\chargen.c(249) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\apps\chargen\chargen.c(223): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\apps\chargen\chargen.c(222) : 注意: 在此行上通过对比检查索引 "sock" 范围
+  F:\LwipWin32\contrib\apps\chargen\chargen.c(223) : 注意: 此行上的源调用
+  正在编译...
+  mdns_example.c
+F:\LwipWin32\contrib\examples\mdns\mdns_example.c(41,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\examples\mdns\mdns_example.c(41,3): message : 请考虑在格式字符串中使用“%ld”
+  mqtt_example.c
+  pppos_example.c
+  snmp_example.c
+  lwip_prvmib.c
+  snmpv3_dummy.c
+  sntp_example.c
+  tftp_example.c
+  正在生成代码...
+F:\LwipWin32\contrib\examples\snmp\snmp_private_mib\lwip_prvmib.c(238): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\examples\snmp\snmp_private_mib\lwip_prvmib.c(236) : 注意: 在此行上通过对比检查索引 "" 范围
+  F:\LwipWin32\contrib\examples\snmp\snmp_private_mib\lwip_prvmib.c(238) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\examples\snmp\snmp_private_mib\lwip_prvmib.c(324): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\examples\snmp\snmp_private_mib\lwip_prvmib.c(317) : 注意: 在此行上通过对比检查索引 "i" 范围
+  F:\LwipWin32\contrib\examples\snmp\snmp_private_mib\lwip_prvmib.c(324) : 注意: 此行上的源调用
+F:\LwipWin32\contrib\examples\ppp\pppos_example.c(65): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  F:\LwipWin32\contrib\examples\ppp\pppos_example.c(59) : 注意: 在此行上通过对比检查索引 "len" 范围
+  F:\LwipWin32\contrib\examples\ppp\pppos_example.c(65) : 注意: 此行上的源调用
+  lwIP_Test.vcxproj -> F:\LwipWin32\contrib\ports\win32\msvc\Debug\lwIP_Test.exe

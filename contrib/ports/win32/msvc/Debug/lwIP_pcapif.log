@@ -1,0 +1,144 @@
+﻿D:\VisualStudio\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(lwIP_Test.vcxproj, makefsdata.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  pcapif.c
+F:\LwipWin32\contrib\ports\win32\pcapif.c(178,3): error C2061: 语法错误: 标识符“pcap_t”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(195,1): error C2059: 语法错误:“}”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(328,33): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+F:\LwipWin32\contrib\ports\win32\pcapif.c(328,33): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+F:\LwipWin32\contrib\ports\win32\pcapif.c(328,38): warning C4431: 缺少类型说明符 - 假定为 int。注意: C 不再支持默认 int
+F:\LwipWin32\contrib\ports\win32\pcapif.c(328,65): error C2059: 语法错误:“类型”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(328,98): error C2059: 语法错误:“)”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(428,14): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+F:\LwipWin32\contrib\ports\win32\pcapif.c(430,1): warning C4431: 缺少类型说明符 - 假定为 int。注意: C 不再支持默认 int
+F:\LwipWin32\contrib\ports\win32\pcapif.c(431,9): error C2065: “pcap_t”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(431,19): error C2065: “adapter”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(431,21): warning C4013: “pcap_open_live”未定义；假设外部返回 int
+F:\LwipWin32\contrib\ports\win32\pcapif.c(431,9): error C2106: “=”: 左操作数必须为左值
+F:\LwipWin32\contrib\ports\win32\pcapif.c(441,17): error C2065: “adapter”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(441,17): warning C4047: “return”:“int *”与“int”的间接级别不同
+F:\LwipWin32\contrib\ports\win32\pcapif.c(483,31): error C2065: “PCAP_ERRBUF_SIZE”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(483,31): error C2057: 应输入常量表达式
+F:\LwipWin32\contrib\ports\win32\pcapif.c(483,8): error C2133: “errbuf”: 未知的大小
+F:\LwipWin32\contrib\ports\win32\pcapif.c(485,13): error C2065: “pcap_if_t”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(485,21): error C2065: “alldevs”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(485,13): warning C4552: ”*“: 未使用表达式结果
+F:\LwipWin32\contrib\ports\win32\pcapif.c(486,13): error C2065: “pcap_if_t”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(486,15): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(486,13): warning C4552: ”*“: 未使用表达式结果
+F:\LwipWin32\contrib\ports\win32\pcapif.c(487,13): error C2065: “pcap_if_t”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(487,27): error C2065: “used_adapter”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(487,33): warning C4047: “=”:“int”与“void *”的间接级别不同
+F:\LwipWin32\contrib\ports\win32\pcapif.c(487,13): error C2106: “=”: 左操作数必须为左值
+F:\LwipWin32\contrib\ports\win32\pcapif.c(489,69): error C2027: 使用了未定义类型“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(176): message : 参见“pcapif_private”的声明
+F:\LwipWin32\contrib\ports\win32\pcapif.c(495,46): error C2027: 使用了未定义类型“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(176): message : 参见“pcapif_private”的声明
+F:\LwipWin32\contrib\ports\win32\pcapif.c(497,3): error C2037: “input_fn_arg”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(500,7): warning C4013: “pcap_findalldevs”未定义；假设外部返回 int
+F:\LwipWin32\contrib\ports\win32\pcapif.c(500,32): error C2065: “alldevs”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(505,10): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(505,19): error C2065: “alldevs”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(505,47): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(505,54): warning C4047: “!=”:“int”与“void *”的间接级别不同
+F:\LwipWin32\contrib\ports\win32\pcapif.c(505,58): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(505,61): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(505,63): error C2223: “->next”的左侧必须指向结构/联合
+F:\LwipWin32\contrib\ports\win32\pcapif.c(507,21): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(507,23): error C2223: “->description”的左侧必须指向结构/联合
+F:\LwipWin32\contrib\ports\win32\pcapif.c(510,21): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(510,23): error C2223: “->name”的左侧必须指向结构/联合
+F:\LwipWin32\contrib\ports\win32\pcapif.c(510,13): error C2198: “strlen”: 用于调用的参数太少
+F:\LwipWin32\contrib\ports\win32\pcapif.c(511,7): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(511,7): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(512,14): error C2037: “name”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(512,25): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(512,27): error C2223: “->name”的左侧必须指向结构/联合
+F:\LwipWin32\contrib\ports\win32\pcapif.c(512,7): error C2198: “strcpy”: 用于调用的参数太少
+F:\LwipWin32\contrib\ports\win32\pcapif.c(514,20): error C2065: “used_adapter”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(514,23): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(533,17): error C2037: “description”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(533,43): warning C4047: “函数”:“const char *”与“size_t”的间接级别不同
+F:\LwipWin32\contrib\ports\win32\pcapif.c(533,40): warning C4024: “strncpy”: 形参和实参 2 的类型不同
+F:\LwipWin32\contrib\ports\win32\pcapif.c(533,9): error C2198: “strncpy”: 用于调用的参数太少
+F:\LwipWin32\contrib\ports\win32\pcapif.c(534,9): error C2037: “description”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(536,16): error C2037: “description”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(536,9): error C2198: “strcpy”: 用于调用的参数太少
+F:\LwipWin32\contrib\ports\win32\pcapif.c(543,10): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(543,19): error C2065: “alldevs”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(543,30): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(543,37): warning C4047: “!=”:“int”与“void *”的间接级别不同
+F:\LwipWin32\contrib\ports\win32\pcapif.c(543,41): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(543,44): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(543,46): error C2223: “->next”的左侧必须指向结构/联合
+F:\LwipWin32\contrib\ports\win32\pcapif.c(544,19): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(544,21): error C2223: “->description”的左侧必须指向结构/联合
+F:\LwipWin32\contrib\ports\win32\pcapif.c(547,28): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(547,30): error C2223: “->name”的左侧必须指向结构/联合
+F:\LwipWin32\contrib\ports\win32\pcapif.c(548,10): error C2065: “d”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(548,12): error C2223: “->name”的左侧必须指向结构/联合
+F:\LwipWin32\contrib\ports\win32\pcapif.c(586,5): warning C4013: “pcap_freealldevs”未定义；假设外部返回 int
+F:\LwipWin32\contrib\ports\win32\pcapif.c(586,29): error C2065: “alldevs”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(593,29): error C2065: “alldevs”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(601,3): error C2065: “used_adapter”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(601,3): warning C4047: “!=”:“int”与“void *”的间接级别不同
+F:\LwipWin32\contrib\ports\win32\pcapif.c(601,3): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(601,3): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(604,3): error C2037: “adapter”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(604,49): error C2065: “used_adapter”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(604,51): error C2223: “->name”的左侧必须指向结构/联合
+F:\LwipWin32\contrib\ports\win32\pcapif.c(604,17): error C2198: “pcapif_open_adapter”: 用于调用的参数太少
+F:\LwipWin32\contrib\ports\win32\pcapif.c(605,7): error C2037: “adapter”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(606,97): error C2065: “used_adapter”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(606,99): error C2223: “->name”的左侧必须指向结构/联合
+F:\LwipWin32\contrib\ports\win32\pcapif.c(606,12): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+F:\LwipWin32\contrib\ports\win32\pcapif.c(606,12): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+F:\LwipWin32\contrib\ports\win32\pcapif.c(606,12): message : 缺失的可变参数 2 为格式字符串“%s”所需
+F:\LwipWin32\contrib\ports\win32\pcapif.c(608,29): error C2065: “alldevs”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(612,37): error C2037: “description”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(612,10): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+F:\LwipWin32\contrib\ports\win32\pcapif.c(612,10): message : 占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+F:\LwipWin32\contrib\ports\win32\pcapif.c(612,10): message : 缺失的可变参数 1 为格式字符串“%s”所需
+F:\LwipWin32\contrib\ports\win32\pcapif.c(613,27): error C2065: “alldevs”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(616,3): error C2037: “link_state”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(616,43): error C2037: “name”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(616,20): error C2198: “pcapifh_linkstate_init”: 用于调用的参数太少
+F:\LwipWin32\contrib\ports\win32\pcapif.c(617,3): error C2037: “last_link_event”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(631,30): error C2037: “link_state”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(631,8): error C2198: “pcapifh_linkstate_get”: 用于调用的参数太少
+F:\LwipWin32\contrib\ports\win32\pcapif.c(633,7): error C2037: “last_link_event”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(634,5): error C2037: “last_link_event”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(665,5): error C2037: “rx_run”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(667,9): error C2037: “adapter”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(668,7): warning C4013: “pcap_breakloop”未定义；假设外部返回 int
+F:\LwipWin32\contrib\ports\win32\pcapif.c(668,22): error C2037: “adapter”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(669,7): warning C4013: “pcap_close”未定义；假设外部返回 int
+F:\LwipWin32\contrib\ports\win32\pcapif.c(669,18): error C2037: “adapter”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(673,11): error C2037: “rx_running”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(676,29): error C2037: “link_state”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(676,5): error C2198: “pcapifh_linkstate_close”: 用于调用的参数太少
+F:\LwipWin32\contrib\ports\win32\pcapif.c(691,24): error C2079: “pkt_header”使用未定义的 struct“pcap_pkthdr”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(692,11): warning C4431: 缺少类型说明符 - 假定为 int。注意: C 不再支持默认 int
+F:\LwipWin32\contrib\ports\win32\pcapif.c(692,18): warning C4132: “u_char”: 应初始化常量对象
+F:\LwipWin32\contrib\ports\win32\pcapif.c(692,18): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+F:\LwipWin32\contrib\ports\win32\pcapif.c(692,26): error C2065: “packet”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(692,18): error C2100: 非法的间接寻址
+F:\LwipWin32\contrib\ports\win32\pcapif.c(692,28): warning C4013: “pcap_next”未定义；假设外部返回 int
+F:\LwipWin32\contrib\ports\win32\pcapif.c(692,38): error C2037: “adapter”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(693,15): error C2065: “packet”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(693,22): warning C4047: “!=”:“int”与“void *”的间接级别不同
+F:\LwipWin32\contrib\ports\win32\pcapif.c(694,7): warning C4013: “pcapif_input”未定义；假设外部返回 int
+F:\LwipWin32\contrib\ports\win32\pcapif.c(694,28): error C2059: 语法错误:“)”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(696,12): error C2037: “rx_run”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(697,3): error C2037: “rx_running”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(706,56): error C2065: “LWIP_MAC_ADDR_BASE”: 未声明的标识符
+F:\LwipWin32\contrib\ports\win32\pcapif.c(722,7): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(722,7): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(758,5): warning C4777: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“long”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(758,5): message : 请考虑在格式字符串中使用“%ld”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(772,3): error C2037: “last_link_event”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(772,47): error C2037: “link_state”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(772,25): error C2198: “pcapifh_linkstate_get”: 用于调用的参数太少
+F:\LwipWin32\contrib\ports\win32\pcapif.c(773,7): error C2037: “last_link_event”的左侧部分指定未定义的结构/联合“pcapif_private”
+F:\LwipWin32\contrib\ports\win32\pcapif.c(773,11): fatal error C1003: 错误计数超过 100；正在停止编译
+  pcapif_helper.c
+F:\LwipWin32\contrib\ports\win32\pcapif_helper.c(21,10): fatal error C1083: 无法打开包括文件: “packet32.h”: No such file or directory
+  正在生成代码...

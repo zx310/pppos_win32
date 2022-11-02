@@ -1,0 +1,1 @@
+F:\LwipWin32\contrib\ports\win32\msvc\Debug\lwIP\lwIP.lib
