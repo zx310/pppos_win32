@@ -42,7 +42,7 @@
 #ifdef _MSC_VER
 #pragma warning (pop)
 #endif
-#include "lwipcfg.h"
+//#include "lwipcfg.h"
 
 /** When 1, use COM ports, when 0, use named pipes (for simulation). */
 #ifndef SIO_USE_COMPORT
@@ -58,7 +58,7 @@
 
 #if SIO_USE_COMPORT
 #ifndef SIO_COMPORT_SPEED
-#define SIO_COMPORT_SPEED 115200
+#define SIO_COMPORT_SPEED 3000000
 #endif
 #ifndef SIO_COMPORT_BYTESIZE
 #define SIO_COMPORT_BYTESIZE 8
