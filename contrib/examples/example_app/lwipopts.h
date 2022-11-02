@@ -37,7 +37,7 @@
 #else /* LWIP_OPTTEST_FILE */
 
 #define LWIP_IPV4                  1
-#define LWIP_IPV6                  1
+#define LWIP_IPV6                  0
 
 #define NO_SYS                     0
 #define LWIP_SOCKET                (NO_SYS==0)
@@ -71,8 +71,10 @@
 #define LWIP_TCPIP_CORE_LOCKING    1
 
 #define LWIP_NETIF_LINK_CALLBACK        1
-#define LWIP_NETIF_STATUS_CALLBACK      1
+#define LWIP_NETIF_STATUS_CALLBACK      0
 #define LWIP_NETIF_EXT_STATUS_CALLBACK  1
+
+#define PPP_INPROC_IRQ_SAFE				1
 
 #ifdef LWIP_DEBUG
 
@@ -295,7 +297,7 @@ a lot of data that needs to be copied, this should be set high. */
  * we're limited by the command line length so you need to modify the settings
  * in this file.
  */
-#define PPPOE_SUPPORT           1
+#define PPPOE_SUPPORT           0
 #define PPPOS_SUPPORT           1
 
 #define PAP_SUPPORT             1      /* Set > 0 for PAP. */

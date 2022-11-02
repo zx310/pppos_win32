@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>F:\LwipWin32\contrib\ports\win32\msvc\Debug\lwIP_Test.exe</FullPath>
+      <FullPath>F:\LwipWin32\github_code\pppos_win32\contrib\ports\win32\msvc\Debug\lwIP_Test.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -72,6 +72,7 @@
 #include "apps/udpecho/udpecho.h"
 #include "apps/tcpecho_raw/tcpecho_raw.h"
 #include "apps/socket_examples/socket_examples.h"
+#include "apps/tcp_client/tcp_client.h"
 
 #include "examples/lwiperf/lwiperf_example.h"
 #include "examples/mdns/mdns_example.h"
@@ -105,7 +106,7 @@
 #endif /* PPP_SUPPORT */
 
 /* include the port-dependent configuration */
-#include "lwipcfg.h"
+//#include "lwipcfg.h"
 
 #ifndef LWIP_EXAMPLE_APP_ABORT
 #define LWIP_EXAMPLE_APP_ABORT() 0
@@ -113,12 +114,12 @@
 
 /** Define this to 1 to enable a port-specific ethernet interface as default interface. */
 #ifndef USE_DEFAULT_ETH_NETIF
-#define USE_DEFAULT_ETH_NETIF 1
+#define USE_DEFAULT_ETH_NETIF 0
 #endif
 
 /** Define this to 1 to enable a PPP interface. */
 #ifndef USE_PPP
-#define USE_PPP 0
+#define USE_PPP 1
 #endif
 
 /** Define this to 1 or 2 to support 1 or 2 SLIP interfaces. */
@@ -159,12 +160,14 @@ struct autoip netif_autoip;
 #endif /* LWIP_AUTOIP */
 #endif /* USE_ETHERNET */
 #if USE_PPP
+/* THE PPP Serial rx thread runing flag*/
+uint8_t running = 1;
 /* THE PPP PCB */
 ppp_pcb *ppp;
 /* THE PPP interface */
 struct netif ppp_netif;
 /* THE PPP descriptor */
-u8_t sio_idx = 0;
+u8_t sio_idx = 4;
 sio_fd_t ppp_sio;
 #endif /* USE_PPP */
 #if USE_SLIPIF
@@ -174,6 +177,11 @@ struct netif slipif2;
 #endif /* USE_SLIPIF > 1 */
 #endif /* USE_SLIPIF */
 
+
+#define LWIP_DNS_APP 0
+#define LWIP_PING_APP 0
+#define LWIP_MQTT_APP 0
+#define CUSTOM_TCP_CLIENT   1
 
 #if USE_PPP
 static void
@@ -197,6 +205,9 @@ pppLinkStatusCallback(ppp_pcb *pcb, int errCode, void *ctx)
 #if PPP_IPV6_SUPPORT
       printf("   our6_ipaddr = %s\n", ip6addr_ntoa(netif_ip6_addr(pppif, 0)));
 #endif /* PPP_IPV6_SUPPORT */
+#ifdef CUSTOM_TCP_CLIENT
+      tcp_client_init();
+#endif
       break;
     }
     case PPPERR_PARAM: {           /* Invalid parameter. */
@@ -272,6 +283,7 @@ status_callback(struct netif *state_netif)
   if (netif_is_up(state_netif)) {
 #if LWIP_IPV4
     printf("status_callback==UP, local interface IP is %s\n", ip4addr_ntoa(netif_ip4_addr(state_netif)));
+	
 #else
     printf("status_callback==UP\n");
 #endif
@@ -292,6 +304,28 @@ link_callback(struct netif *state_netif)
   }
 }
 #endif /* LWIP_NETIF_LINK_CALLBACK */
+
+
+static void
+pppos_rx_thread(void* arg)
+{
+    u32_t len;
+    u8_t buffer[128];
+    LWIP_UNUSED_ARG(arg);
+
+    /* Please read the "PPPoS input path" chapter in the PPP documentation. */
+    while (running) {
+        len = sio_read(ppp_sio, buffer, sizeof(buffer));
+        if (len > 0) {
+            /* Pass received raw characters from PPPoS to be decoded through lwIP
+             * TCPIP thread using the TCPIP API. This is thread safe in all cases
+             * but you should avoid passing data byte after byte. */
+             //pppos_input_tcpip(ppp, buffer, len);
+
+            pppos_input(ppp, buffer, len);
+        }
+    }
+}
 
 /* This function initializes all network interfaces */
 static void
@@ -331,12 +365,23 @@ test_netif_init(void)
     printf("sio_open error\n");
   } else {
     ppp = pppos_create(&ppp_netif, ppp_output_cb, pppLinkStatusCallback, NULL);
+    ppp_set_usepeerdns(ppp, 1);
+    /* Set this interface as default route */
+    ppp_set_default(ppp);
+    sys_msleep(1000);
     if (ppp == NULL) {
       printf("pppos_create error\n");
     } else {
+#ifdef LWIP_PPP_CHAP_TEST
       ppp_set_auth(ppp, PPPAUTHTYPE_ANY, username, password);
+#endif
       ppp_connect(ppp, 0);
+#if LWIP_NETIF_STATUS_CALLBACK
+      netif_set_status_callback(&ppp_netif, status_callback);
+#endif /* LWIP_NETIF_STATUS_CALLBACK */
     }
+
+    sys_thread_new("pppos_rx_thread", pppos_rx_thread, NULL, DEFAULT_THREAD_STACKSIZE, DEFAULT_THREAD_PRIO);
   }
 #endif /* PPPOS_SUPPORT */
 #endif  /* USE_PPP */
@@ -487,7 +532,7 @@ dns_found(const char *name, const ip_addr_t *addr, void *arg)
 static void
 dns_dorequest(void *arg)
 {
-  const char* dnsname = "3com.com";
+  const char* dnsname = "baidu.com";
   ip_addr_t dnsresp;
   LWIP_UNUSED_ARG(arg);
  
@@ -511,7 +556,8 @@ apps_init(void)
 #endif /* LWIP_CHARGEN_APP && LWIP_SOCKET */
 
 #if LWIP_PING_APP && LWIP_RAW && LWIP_ICMP
-  ping_init(&netif_default->gw);
+  /*ping gateway addr*/
+  ping_init(NULL);// (netif_ip4_gw(ppp_netif(ppp)));
 #endif /* LWIP_PING_APP && LWIP_RAW && LWIP_ICMP */
 
 #if LWIP_NETBIOS_APP && LWIP_UDP
@@ -666,15 +712,7 @@ main_loop(void)
 #if USE_ETHERNET
     default_netif_poll();
 #else /* USE_ETHERNET */
-    /* try to read characters from serial line and pass them to PPPoS */
-    count = sio_read(ppp_sio, (u8_t*)rxbuf, 1024);
-    if(count > 0) {
-      pppos_input(ppp, rxbuf, count);
-    } else {
-      /* nothing received, give other tasks a chance to run */
-      sys_msleep(1);
-    }
-
+   
 #endif /* USE_ETHERNET */
 #if USE_SLIPIF
     slipif_poll(&slipif1);
@@ -686,30 +724,12 @@ main_loop(void)
     /* check for loopback packets on all netifs */
     netif_poll_all();
 #endif /* ENABLE_LOOPBACK && !LWIP_NETIF_LOOPBACK_MULTITHREADING */
-#if USE_PPP
-    {
-    int do_hup = 0;
-    if(do_hup) {
-      ppp_close(ppp, 1);
-      do_hup = 0;
-    }
-    }
-    if(callClosePpp && ppp) {
-      /* make sure to disconnect PPP before stopping the program... */
-      callClosePpp = 0;
-#if NO_SYS
-      ppp_close(ppp, 0);
-#else
-      pppapi_close(ppp, 0);
-#endif
-      ppp = NULL;
-    }
-#endif /* USE_PPP */
-  }
+}
 
 #if USE_PPP
     if(ppp) {
       u32_t started;
+      running = 0;
       printf("Closing PPP connection...\n");
       /* make sure to disconnect PPP before stopping the program... */
 #if NO_SYS

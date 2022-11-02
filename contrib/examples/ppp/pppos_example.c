@@ -60,7 +60,9 @@ pppos_rx_thread(void *arg)
       /* Pass received raw characters from PPPoS to be decoded through lwIP
        * TCPIP thread using the TCPIP API. This is thread safe in all cases
        * but you should avoid passing data byte after byte. */
-      pppos_input_tcpip(ppp, buffer, len);
+        //pppos_input_tcpip(ppp, buffer, len);
+
+        pppos_input(ppp, buffer, len);
     }
   }
 }

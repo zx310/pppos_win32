@@ -192,6 +192,7 @@ ppp_pcb *pppos_create(struct netif *pppif, pppos_output_cb_fn output_cb,
   memset(pppos, 0, sizeof(pppos_pcb));
   pppos->ppp = ppp;
   pppos->output_cb = output_cb;
+  pppos->output_cb(NULL, (uint8_t*)"ATD*99#\r\n", 9, NULL);
   return ppp;
 }
 
